@@ -3,8 +3,8 @@ project = "hackaton"
 
 //RG
 tupla_rgname_lc = {
-        RGEU2001 = { name = "rghack01", location = "eastus2" }
-        RGCU001 = { name = "rghack02", location = "centralus" }
+        RGEU2001 = { name = "rghack01marianocarea", location = "eastus2" }
+        RGCU001 = { name = "rghack02marianocarea", location = "centralus" }
     }
 
 //SQL
