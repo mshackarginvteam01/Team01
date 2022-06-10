@@ -128,7 +128,7 @@ module "Appservice" {
 
 //FrontDoor
 module "Frontdoor" {
-  source  = "./modules/FrontDoor"
+  source  = "./Modules/FrontDoor"
   tags     = merge(local.common_tags)
   frontdoorname = var.frontdoor_name
   location = "Global"
