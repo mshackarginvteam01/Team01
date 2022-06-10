@@ -6,11 +6,9 @@ env:
   DOTNET_VERSION: '6.0'                 # set this to the .NET Core version to use
 
 on:
-  push:
-    branches:
-      - "main"
-    paths-ignore:
-      - '.github/**'      
+  push:     
+    tags:
+      - 'v.0.\d+.\d+'
   pull_request:
 
 permissions:

@@ -45,11 +45,9 @@
 name: 'Terraform'
 
 on:
-  push:
-    branches:
-      - "main"
+  push:     
     tags:
-      - 'v.\d+.\d+.\d+'
+      - 'v.1.\d+.\d+'
   pull_request:
 
 permissions:
