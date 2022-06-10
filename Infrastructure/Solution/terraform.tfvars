@@ -14,7 +14,7 @@ admin_password = "Hackathon2021ARG"
 db_name = "dbhackathonarg2021"
 
 //FrontDoor
-frontdoor_name = "hackathonarg20211"
+frontdoor_name = "hackathonarg20211-marianocarea"
 
 //LogAnalytics
 loganalytics_name ="mshack1"
