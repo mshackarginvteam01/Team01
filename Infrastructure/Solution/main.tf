@@ -57,7 +57,7 @@ module "LogAnalitycs" {
   resource_group_name   = join("," , module.RGroups.name[*].RGEU2001.name) // Dependencia implicita
   location              = join("," , module.RGroups.name[*].RGEU2001.location) // Dependencia implicita
   sku                   = "PerGB2018"
-  retention_in_days     = 31
+  //retention_in_days     = 31
   tags = merge(local.common_tags, local.extra_tags)
   solutions = [
         {
