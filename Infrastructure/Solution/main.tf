@@ -2,8 +2,9 @@
 terraform {
   backend "azurerm" {
     resource_group_name  = "terraform"
-    storage_account_name = "hackterraform"
-    container_name       = "tfstate"
+    storage_account_name = "hackterraformgrupo1"
+    container_name       = "tfstatmarianocarea"
+    sas_token            = "sp=racwdli&st=2022-06-10T18:06:29Z&se=2022-06-11T02:06:29Z&spr=https&sv=2021-06-08&sr=c&sig=SSmI2pFFVM6%2Bjd6wlmohEbnRqrOZILY7%2BfaJRzQFbgc%3D"
     key                  = "prod.terraform.tfstate"    
   }
   required_providers {
