@@ -8,10 +8,10 @@ env:
 on:
   push:
     branches:
-      - "master"
+      - "main"
     paths-ignore:
       - '.github/**'      
-  workflow_dispatch:
+  
 
 permissions:
   contents: read
