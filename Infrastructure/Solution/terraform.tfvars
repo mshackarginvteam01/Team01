@@ -8,7 +8,7 @@ tupla_rgname_lc = {
     }
 
 //SQL
-sqlserver_name = "svrhackathonarg20211"
+sqlserver_name = "svrhackathonarg20211-marianocarea"
 admin_username = "hacksaarg2021"
 admin_password = "Hackathon2021ARG"
 db_name = "dbhackathonarg2021"
@@ -20,5 +20,5 @@ frontdoor_name = "hackathonarg20211"
 loganalytics_name ="mshack1"
 
 //APPService
-asp_name = "hackasparg"
-wa_name  = "hackwaarg"
+asp_name = "hackasparg-marianocarea"
+wa_name  = "hackwaarg-marianocarea"
