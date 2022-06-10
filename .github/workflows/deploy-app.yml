@@ -11,7 +11,7 @@ on:
       - "main"
     paths-ignore:
       - '.github/**'      
-  
+     pull_request:
 
 permissions:
   contents: read
