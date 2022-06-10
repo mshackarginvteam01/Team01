@@ -19,6 +19,9 @@ permissions:
 jobs:
   build:
     runs-on: windows-latest
+    defaults:
+    run:    
+      working-directory: APP/PartsUnlimitedApi
 
     steps:
       - uses: actions/checkout@v3
